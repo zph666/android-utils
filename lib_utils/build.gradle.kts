@@ -33,6 +33,26 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+        }
+    }
+}
+
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            groupId = (findProperty("group") as String?) ?: "com.github.zph666"
+            artifactId = "lib_utils"
+            version = (findProperty("version") as String?) ?: "1.0.0"
+
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
 }
 
 dependencies {
