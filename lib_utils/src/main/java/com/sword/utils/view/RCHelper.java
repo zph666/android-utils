@@ -18,7 +18,7 @@ import android.view.View;
 import android.widget.Checkable;
 
 
-import com.android.white.R;
+import com.sword.utils.R;
 
 import java.util.ArrayList;
 
