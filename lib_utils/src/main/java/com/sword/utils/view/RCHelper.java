@@ -24,7 +24,6 @@ import java.util.ArrayList;
 
 /**
  * 作用：圆角辅助工具
- * 作者：GcsSloop
  */
 public class RCHelper {
     public float[] radii = new float[8];   // top-left, top-right, bottom-right, bottom-left

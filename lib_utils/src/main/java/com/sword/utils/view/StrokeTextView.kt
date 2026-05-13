@@ -10,6 +10,9 @@ import android.widget.TextView
 import androidx.appcompat.widget.AppCompatTextView
 import com.sword.utils.R
 
+/**
+ * 文字描边工具
+ */
 class StrokeTextView : AppCompatTextView {
     private var borderText: TextView? = null // 用于描边的TextView
 

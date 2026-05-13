@@ -8,9 +8,7 @@ import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
 
 /**
- * Created by Zph
- * E-mail : 476379073@qq.com
- * Function :
+ * 文件存储辅助
  */
 abstract class SPFDelegate {
 

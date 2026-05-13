@@ -1,5 +1,8 @@
 package com.sword.utils
 
+import android.os.Build
+import androidx.annotation.RequiresApi
+import com.sword.utils.code.RubbishCode
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -13,5 +16,12 @@ class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
+        runCode()
+    }
+
+    fun runCode(){
+        val rubbishCode = RubbishCode()
+        rubbishCode.setPathAndPage("lib_code", "com.sword.utils.code")
+        rubbishCode.run()
     }
 }

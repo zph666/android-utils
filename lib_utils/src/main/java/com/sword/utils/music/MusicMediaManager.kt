@@ -4,8 +4,7 @@ import android.media.MediaPlayer
 import com.sword.utils.spf.SPFContext
 
 /**
- * @author houqiang
- * @since 2023/5/22
+ * 短音频管理工具
  */
 object MusicMediaManager {
 

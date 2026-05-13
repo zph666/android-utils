@@ -1,8 +1,7 @@
 package com.sword.utils.music
 
 /**
- * @author houqiang
- * @since 2023/5/22
+ * 音频管理工具
  */
 object MusicPoolManager {
 

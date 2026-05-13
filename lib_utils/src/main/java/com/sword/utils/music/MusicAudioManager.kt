@@ -6,6 +6,9 @@ import android.net.Uri
 import com.sword.utils.spf.SPFContext
 import java.io.File
 
+/**
+ * 长音频管理工具
+ */
 @SuppressLint("StaticFieldLeak")
 object MusicAudioManager {
 

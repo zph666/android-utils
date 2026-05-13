@@ -11,7 +11,6 @@ import android.widget.RelativeLayout;
 
 /**
  * 作用：圆角相对布局
- * 作者：GcsSloop
  */
 public class RCRelativeLayout extends RelativeLayout implements Checkable, RCAttrs {
     RCHelper mRCHelper;

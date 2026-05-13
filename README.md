@@ -28,3 +28,20 @@ MusicPoolManager
 raw短语音 showSound
 raw长语音 showSoundLong
 url语音 playSound
+
+垃圾代码生成工具
+RubbishCode
+使用
+class ExampleUnitTest {
+@Test
+fun addition_isCorrect() {
+assertEquals(4, 2 + 2)
+runCode()
+}
+
+    fun runCode(){
+        val rubbishCode = RubbishCode()
+        rubbishCode.setPathAndPage("lib_code", "com.sword.utils.code")
+        rubbishCode.run()
+    }
+}
