@@ -60,6 +60,7 @@ implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.3")
 implementation("com.jakewharton:disklrucache:2.0.2")
 // 列表adapter适配器
 implementation("io.github.cymchad:BaseRecyclerViewAdapterHelper:3.0.16")
+implementation("io.github.cymchad:BaseRecyclerViewAdapterHelper4:4.3.4")
 // 毛玻璃模糊库
 implementation("com.github.Dimezis:BlurView:version-2.0.6")
 // 沉浸式状态栏库，提供沉浸式状态栏支持
