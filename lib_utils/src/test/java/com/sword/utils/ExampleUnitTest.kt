@@ -21,7 +21,8 @@ class ExampleUnitTest {
 
     fun runCode(){
         val rubbishCode = RubbishCode()
-        rubbishCode.setPathAndPage("lib_code", "com.sword.utils.code")
+        rubbishCode.setPathAndPage("lib_code", "com.sword.utils.code1")
         rubbishCode.run()
+        println("RubbishCode run success")
     }
 }
