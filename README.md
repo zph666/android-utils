@@ -14,7 +14,7 @@
 
 ```
 	dependencies {
-	    implementation 'com.github.zph666:android-utils:v1.0.3'
+	    implementation 'com.github.zph666:android-utils:v1.0.4'
 	}
  ```
 # 圆角布局
