@@ -1,7 +1,8 @@
 # 使用插件
 - Add it in your root settings.gradle at the end of repositories:
 
-``` dependencyResolutionManagement {
+```
+  dependencyResolutionManagement {
   repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
   repositories {
     mavenCentral()
@@ -10,6 +11,7 @@
  ```
 
 - Step 2. Add the dependency
+
 ```
 	dependencies {
 	    implementation 'com.github.zph666:android-utils:v1.0.3'
@@ -34,6 +36,11 @@
 # 垃圾代码生成工具
 - RubbishCode 使用
 
+# 时间工具类
+- DateUtil
+- DateUtils
+- TimeUtil
+
 ```
 class ExampleUnitTest {
     @Test
@@ -49,7 +56,6 @@ class ExampleUnitTest {
     }
 }
 ```
-
 
 
 # 收藏jar
