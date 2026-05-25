@@ -59,7 +59,7 @@ dependencies {
     implementation("androidx.core:core-ktx:1.10.1")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
-    implementation("com.google.firebase:firebase-firestore-ktx:26.3.0")
+    implementation("com.google.firebase:firebase-firestore:26.0.2")
     implementation("com.google.firebase:firebase-crashlytics-buildtools:3.0.7")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

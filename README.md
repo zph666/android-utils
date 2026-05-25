@@ -106,7 +106,7 @@ class ExampleUnitTest {
  // Lottie 库，用于渲染 After Effects 动画
  implementation("com.airbnb.android:lottie:6.6.10")
  // MMKV 库，腾讯的高性能键值存储库 MMKV 版本是 2.0+，只支持 64 位架构。
- api("com.tencent:mmkv:1.3.9")
+ implementation("com.tencent:mmkv:1.3.9")
  // okhttp
  // Retrofit 的 Gson 转换器，用于将 JSON 转换为 Java/Kotlin 对象
  implementation("com.squareup.retrofit2:converter-gson:3.0.0")
@@ -124,5 +124,9 @@ class ExampleUnitTest {
  implementation("com.github.wangfeng19930909:AutoFitColorTextView:1.0.0")
  // 滚动积分板
  implementation("com.github.Wiser-Wong:RollNumber:1.0.2")
+  // 工具类
+ implementation("com.blankj:utilcodex:1.31.1")
+ // 我的工具
+ implementation("com.github.zph666:android-utils:v1.0.4")
 ```
 
